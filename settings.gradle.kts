@@ -21,4 +21,4 @@ dependencyResolutionManagement {
 
 rootProject.name = "TicketSearchApp"
 include(":app")
- 
+include(":activity_main")

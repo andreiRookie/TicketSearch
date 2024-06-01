@@ -50,5 +50,10 @@ dependencies {
     implementation(libs.dagger)
     kapt(libs.dagger.compiler)
 
-    implementation(project(":activity_main"))
+    api(project(":core:bridge"))
+    implementation(project(":activity-main"))
+    implementation(project(":feature-search:api"))
+    implementation(project(":feature-search:impl"))
+    implementation(project(":feature-hotels:api"))
+    implementation(project(":feature-hotels:impl"))
 }
